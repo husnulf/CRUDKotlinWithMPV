@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="7dp"
+    android:layout_height="wrap_content">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/listname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Husnul Fikrah"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/listnis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="25008"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/linkupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="update"
+            android:textAllCaps="true"
+            android:textColor="#fa96d4"
+            android:textSize="19dp" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</RelativeLayout>
